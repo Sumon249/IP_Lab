@@ -9,53 +9,66 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
 
-<body
-    style="background: url(./Assets/background-registration.png); background-size: cover; margin:0; padding:0;  font-family: Roboto ">
-    <nav style="display:flex; align-items: center; background-color: rgba(255, 255, 255, 0.8);">
-        <div class="logo">
-            <img src="./Assets/network-logo.png" alt="" style="width: 10%; margin-inline: 2rem">
+<body>
+    <nav>
+        <div>
+            <img class="logo" src="./Assets/network-logo.png" alt="" />
         </div>
         <div>
-            <ul style="display:flex; align-items: space-around; list-style: none;">
-                <li style="margin-inline: 1rem"><a href="index.html" style="text-decoration: none;"> Home</a></li>
-                <li style="margin-inline: 1rem"><a href="callForpapers.html" style="text-decoration: none;">Call For
-                        Papers</a></li>
-                <li style="margin-inline: 1rem"><a href="committee.html" style="text-decoration: none;">Commitee</a>
+            <ul class="nav-elements">
+                <li>
+                    <a href="index.html"> Home</a>
                 </li>
-                <li style="margin-inline: 1rem"><a href="importantDates.html" style="text-decoration: none;">Important
-                        dates</a></li>
-                <li style="margin-inline: 1rem"><a href="workshops.html" style="text-decoration: none;">Workshops</a>
+                <li>
+                    <a href="callForpapers.html">Call For Papers</a>
                 </li>
-                <li style="margin-inline: 1rem"><a href="registration.html"
-                        style="text-decoration: none;">Registration</a></li>
-                <li style="margin-inline: 1rem"><a href="contact.html" style="text-decoration: none;">Contact</a></li>
+                <li>
+                    <a href="committee.html">Commitee</a>
+                </li>
+                <li>
+                    <a href="importantDates.html">Important dates</a>
+                </li>
+                <li>
+                    <a href="workshops.html">Workshops</a>
+                </li>
+                <li>
+                    <a href="registration.html">Registration</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
             </ul>
         </div>
     </nav>
 
-    <main style="  height: 100vh; font-family: Roboto; margin-inline: auto; display: flex; gap: 10%; justify-content: center; margin-top: 10%; ">
+    <main class="contacts">
 
-        <div style = "padding: 1em 0;text-align: center;height: 35%; color:white; background-color: rgba(0,0,0, 0.3); backdrop-filter: saturate(180%) blur(10px); width: 30%;border-radius: 15px ">
-            <h2>Technical Commitee</h2>
-            <p style = "font-size: 1.3rem;">Alicia <span style = "font-weight: bold; margin-left: 1.5em;">   Ph:98018400128</span></p>
-            <p style = "font-size: 1.3rem;">Veronica <span  style = "font-weight: bold; margin-left: 1.5em;">Ph:849208142</span></p>
-            <p style = "font-size: 1.3rem;">Pattrick<span  style = "font-weight: bold; margin-left: 1.5em;"> Ph:904820184</span></p>
-            <p style = "font-size: 1.3rem;">Joel <span  style = "font-weight: bold; margin-left: 1.5em;">Ph:893829183</span></p>
+        <div class="contact-card">
+            <h2 class="contact-heading">Technical Commitee</h2>
+            <p class = "contact-name">Alicia <span class = "contact-number">
+                    Ph:98018400128</span></p>
+            <p class = "contact-name">Veronica <span class = "contact-number">Ph:849208142</span></p>
+            <p class = "contact-name">Pattrick<span class = "contact-number">Ph:904820184</span></p>
+            <p class = "contact-name" >Joel <span class = "contact-number">Ph:893829183</span>
+            </p>
         </div>
-        <div style = "padding: 1em 0;text-align: center;height: 35%; color:white; background-color: rgba(0,0,0, 0.3); backdrop-filter: saturate(180%) blur(10px); width: 30%;border-radius: 15px;">
-            <h2> Non-Technical Commitee</h2>
-            <p style = "font-size: 1.3rem;">Matthew <span style = "font-weight: bold; margin-left: 1.5em;">Ph:98018400128 </span></p>
-            <p style = "font-size: 1.3rem;">Jane <span style = "font-weight: bold; margin-left: 1.5em;">Ph:849208142</span></p>
-            <p style = "font-size: 1.3rem;">Jasmine <span style = "font-weight: bold; margin-left: 1.5em;">Ph:904820184</span></p>
-            <p style = "font-size: 1.3rem;">Adam <span style = "font-weight: bold; margin-left: 1.5em;">Ph:893829183</span></p>
+        <div class = "contact-card">
+            <h2 class="contact-heading"> Non-Technical Commitee</h2>
+            <p class = "contact-name">Matthew <span class = "contact-number">Ph:98018400128
+                </span></p>
+            <p class = "contact-name">Jane <span class = "contact-number">Ph:849208142</span>
+            </p>
+            <p class = "contact-name">Jasmine <span class = "contact-number">Ph:904820184</span></p>
+            <p class = "contact-name">Adam <span class = "contact-number">Ph:893829183</span>
+            </p>
         </div>
 
     </main>
-    <footer
-    style="margin-top: 2em;display: grid; grid-template-columns: 1fr 1fr 1fr; place-content: center; text-align: center; background-color: rgba(113, 151, 162, 0.7); backdrop-filter: saturate(180%) blur(15px); color: white">
+    <footer>
         <div>
             <h4>Contact us</h4>
             <p><a href="www.facebook.com">Facebook</a></p>
@@ -74,6 +87,7 @@
             <p> Chengalpattu</p>
             <p> Tamil Nadu</p>
         </div>
+    </footer>
 </body>
 
 </html>

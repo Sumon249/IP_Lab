@@ -1,0 +1,293 @@
+a {
+    text-decoration: none;
+    margin-inline: 1rem;
+}
+
+h1 {
+    font-size: 4.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    margin-top: 10px;
+}
+
+thead {
+    background-color: rgba(16, 66, 127, 0.3)
+}
+
+table,
+th,
+td,
+tr {
+    border: 1px solid black;
+}
+
+
+main {
+    height: 100%;
+    font-family: Roboto;
+}
+
+body {
+    background: url(./Assets/background-registration.png);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-content: center;
+    text-align: center;
+    background-color: rgba(113, 151, 162, 0.7);
+    backdrop-filter: saturate(180%) blur(15px);
+    margin-top: 10rem;
+    color: black;
+}
+
+/* -----------------Home page -----------------*/
+.home-page {
+    background: url(./Assets/background.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.logo {
+    width: 10%;
+    margin-inline: 2rem
+}
+
+.nav-elements {
+    display: flex;
+    align-items: space-around;
+    list-style: none
+}
+
+.main-text {
+    width: 30%;
+    margin-inline: 3rem
+}
+
+.registration-btn {
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 15px 30px;
+    margin-top: 10px;
+    color: black;
+}
+
+.home-footer {
+    background-color: rgba(149, 199, 213, 0.3);
+
+}
+
+/* ------------------------------------------------------------ */
+
+
+/*------------------------Registration Page------------------------*/
+.registration-heading {
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 2.5em
+}
+
+.form-card {
+    padding: 3rem 5rem;
+    margin-inline: auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: saturate(180%) blur(10px);
+    width: 30%;
+    border-radius: 10px;
+    color: black;
+
+
+}
+
+.registration-form {
+    text-align: center;
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px
+}
+
+.registration-form label {
+    margin: 0.5em 0;
+    text-align: right;
+    width: 400px;
+}
+
+.registration-form input {
+    margin-inline: 1.5em;
+    width: 210px;
+    padding: 0.5em 0.25em
+}
+
+.submit-btn {
+    display: block;
+    align-self: center;
+    margin-top: 1em;
+    padding: 0.5rem 8em;
+    border: 1px;
+    border-radius: 5px;
+}
+
+/* ------------------------------------------------------------ */
+
+
+/*------------------------Workshop Page------------------------*/
+.workshop-table {
+    color: white;
+    margin: 5rem auto;
+    width: 50%;
+    height: 60vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: saturate(180%) blur(10px);
+}
+
+/* ------------------------------------------------------------ */
+
+
+/*------------------------Committee Page------------------------*/
+.committee-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: saturate(180%) blur(10px);
+    margin-inline: 3rem;
+    padding: 2rem 0;
+    border-radius: 15px;
+}
+
+.committee {
+    color: white;
+}
+
+.committee-grid img {
+    width: 35%;
+    aspect-ratio: 1;
+    border-radius: 50%
+}
+
+.committee-name {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.committee-role {
+    margin-top: -15px;
+}
+
+/* ------------------------------------------------------------ */
+
+
+
+/*------------------------CallForPapers Page------------------------*/
+.call-for-paper {
+    font-size: 20px;
+    line-height: 33px
+}
+
+.paper-card {
+    margin-top: 2rem;
+    padding: 4em 2em;
+    width: 90vw;
+    margin-inline: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: saturate(180%) blur(10px);
+    color: white
+}
+
+.call-heading {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.call-text {
+    margin: 3rem 5rem
+}
+
+/* ------------------------------------------------------------ */
+
+
+
+/*------------------------Important Dates Page------------------------*/
+.important-dates {
+    color: white;
+}
+
+.important-dates .form-card {
+    padding: 0 15em;
+}
+
+.dates {
+    padding: 5rem 0;
+    font-size: 1.5rem;
+    list-style: disc;
+    line-height: 50px;
+    color: white;
+}
+
+/* ------------------------------------------------------------ */
+
+
+
+/*------------------------Contact Page------------------------*/
+.contacts {
+    margin-inline: auto;
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.contact-heading {
+    font-size: 2rem;
+}
+
+.contact-card {
+    padding: 1em 0;
+    text-align: center;
+    height: 35%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: saturate(180%) blur(10px);
+    width: 30%;
+    border-radius: 15px;
+}
+.contact-name{
+    font-size: 1.3rem;
+}
+
+.contact-number {
+    font-weight: bold;
+    margin-left: 1.5em;
+
+}
