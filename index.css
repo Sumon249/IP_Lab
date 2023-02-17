@@ -84,6 +84,31 @@ footer {
     align-items: space-around;
     list-style: none
 }
+.nav-elements a{
+    position: relative;
+}
+.nav-elements a:hover::after{
+    content: '';
+    /* width: 110%; */
+    height: 2.5px;
+    position: absolute;
+    bottom: -22px;
+    left: -4px;
+    background-color: #297DB8;
+    animation-delay: 1s;
+    animation-name: hover-highlight;
+}
+@keyframes  hover-highlight{
+    0%{
+        width: 0;
+    }
+    50%{
+        width: 50%;
+    }
+    100%{
+        width: 100%;
+    }
+}
 
 .main-text {
     width: 30%;
@@ -91,11 +116,30 @@ footer {
 }
 
 .registration-btn {
-    border-radius: 10px;
-    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #D2E7F2;
     padding: 15px 30px;
     margin-top: 10px;
     color: black;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -3px;
+    transition: 0.2s ease-in
+
+
+}
+.registration-btn:hover{
+
+    scale: 1.1;
+    transition: 0.2s ease-in;
+    background-color: #b5def4;
+    /* box-shadow: rgba(0, 0, 0, .2) 0 3px 8px -3px; */
+
+}
+.registration-btn a{
+    color: black;
+    text-transform: uppercase;
+    border:none;
+
 }
 
 .home-footer {
